@@ -104,4 +104,80 @@ body {
         .app .calculator .row .screen .input {
           font-size: 14px;
           color: var(--color-grey-dark-3);
+          font-weight: 500;
+          min-height: 1.0625rem; }
+
+.app {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 0; }
+  .app .calculator {
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid var(--color-grey-light-4);
+    border-radius: .75rem;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-grey-light-1);
+    padding: 1rem .75rem;
+    padding-bottom: 1.75rem; }
+    .app .calculator .row {
+      padding: .75rem;
+      padding-bottom: 0;
+      width: 100%;
+      display: flex; }
+      .app .calculator .row .col {
+        width: 25%;
+        margin-left: .5rem; }
+        .app .calculator .row .col:first-child {
+          margin-left: 0; }
+        .app .calculator .row .col.zero {
+          width: 50%; }
+        .app .calculator .row .col .digit {
+          width: 3.5rem;
+          height: 3.5rem;
+          border-radius: .75rem;
+          font-size: 2rem;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-weight: 200;
+          font-family: inherit;
+          border: 1px solid var(--color-grey-light-3);
+          vertical-align: middle;
+          color: var(--color-grey-dark-1);
+          user-select: none;
+          cursor: pointer; }
+          .app .calculator .row .col .digit:focus-visible {
+            outline: none; }
+          .app .calculator .row .col .digit:hover {
+            background-color: #d7d7d7; }
+          .app .calculator .row .col .digit:active {
+            transform: scale(0.98);
+            background-color: #cacaca; }
+          .app .calculator .row .col .digit.true {
+            background-color: var(--color-primary);
+            margin-right: 0;
+            color: var(--color-grey-light-1);
+            font-weight: 300; }
+            .app .calculator .row .col .digit.true:hover {
+              background-color: #3e2280; }
+            .app .calculator .row .col .digit.true:active {
+              background-color: #341d6c; }
+      .app .calculator .row .screen {
+        border-radius: .75rem;
+        width: 100%;
+        background-color: white;
+        border: 1px solid var(--color-grey-light-3);
+        text-align: right;
+        font-size: 3rem;
+        margin-bottom: 1rem;
+        padding: 1rem;
+        font-family: inherit;
+        font-weight: 300; }
+        .app .calculator .row .screen .input {
+          font-size: 14px;
+          color: var(--color-grey-dark-3);
           font-weight: 500; }
