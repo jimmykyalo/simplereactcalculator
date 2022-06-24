@@ -8,9 +8,9 @@
 
 > Simple Arithmetic Calculator Built with React and Sass using Math.js package
 
-### 🏠 [Homepage](https://jimmykyalo.github.io/simplereactcalculator/)
+### 🏠 [Homepage](https://github.com/jimmykyalo/simplereactcalculator)
 
-### ✨ [Demo](https://github.com/jimmykyalo/simplereactcalculator)
+### ✨ [Demo](https://jimmykyalo.github.io/simplereactcalculator/)
 
 ## Prerequisites
 
