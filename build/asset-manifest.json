@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/simplereactcalculator/static/css/main.d50d8899.css",
+    "main.js": "/simplereactcalculator/static/js/main.96b54c90.js",
+    "static/js/787.6eb3cb25.chunk.js": "/simplereactcalculator/static/js/787.6eb3cb25.chunk.js",
+    "index.html": "/simplereactcalculator/index.html",
+    "main.d50d8899.css.map": "/simplereactcalculator/static/css/main.d50d8899.css.map",
+    "main.96b54c90.js.map": "/simplereactcalculator/static/js/main.96b54c90.js.map",
+    "787.6eb3cb25.chunk.js.map": "/simplereactcalculator/static/js/787.6eb3cb25.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d50d8899.css",
+    "static/js/main.96b54c90.js"
+  ]
+}
