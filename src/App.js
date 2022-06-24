@@ -1,9 +1,14 @@
 import { useState, useEffect } from 'react'
-import { evaluate } from 'mathjs'
+import { all, create } from 'mathjs'
 import Button from './components/Button'
 
 
 function App() {
+  const config = {
+    number: 'BigNumber',
+    precision: 10
+  }
+  const math = create(all, config)
   const [input, setInput] = useState('')
   const [answer, setAnswer] = useState(0)
 
@@ -23,7 +28,7 @@ function App() {
   
 
   const computeHandler =()=>{
-    setAnswer(evaluate(input))
+    setAnswer(math.format(math.evaluate(input)))
   }
   
   
